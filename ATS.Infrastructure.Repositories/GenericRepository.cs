@@ -35,7 +35,7 @@ namespace ATS.Infrastructure.Repositories
         {
             return _dbSet.Add(entity).Entity;
         }
-
+        //
         public void Delete(Entity entity)
         {
             _dbSet.Remove(entity);
